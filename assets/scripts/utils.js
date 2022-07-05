@@ -24,8 +24,11 @@ function startParallax(e) {
     x /= 2;
     y /= 2;
     imgSoldier2.style.transform = `translateX(-${x}px) translateY(-${y}px) scale(0.5) rotateY(180deg)`;
+}
 
 
-
-
+function enterHomePage() {
+    document.getElementById("loader-s").style.display = "none";
+    var audio = new Audio('/assets/music/background-music.mp3');
+    audio.play();
 }

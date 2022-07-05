@@ -8,13 +8,13 @@
     <!--
     artist PATREON. Alex - Productions ( No Copyright Music )
 -->
-    <embed src="./assets/music/background-music.mp3" loop="true" autostart="true" width="2" height="0">
+    <!-- <embed src="./assets/music/background-music.mp3" loop="true" width="2" height="0" id="bg-music"> -->
 
     <img id="img-background" src="./assets/images/background-wallpaper2.jpg">
     <img id="img-soldier-1" src="./assets/images/background-wallpaper-soldier.png">
     <img id="img-soldier-2" src="./assets/images/background-wallpaper-soldier.png">
 
-    <div class="loader-container">
+    <div id="loader-s" class="loader-container">
         <div class="loader">
             <svg class="inner-circle">
                 <circle cx="100" class="inner-circle-1" cy="100" r="50" stroke="white" stroke-width="3"
@@ -26,8 +26,10 @@
                 <circle cx="100" class="inner-circle-4" cy="100" r="5" stroke="white" stroke-width="3"
                     fill="transparent" />
             </svg>
-            <div style="color: white;text-align: center;">
-                LOADING
+            <div style="text-align: center;">
+                <span id="btn-enter" onclick="enterHomePage()">
+                    ENTER
+                </span>
             </div>
         </div>
     </div>

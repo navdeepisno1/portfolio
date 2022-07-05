@@ -51,7 +51,7 @@ body
     background-color: rgba(0, 0, 0, 0.8);      
     width: 100%; 
     height: 100%;
-    display: none;    
+    display: block;    
 }
 
 .loader
@@ -72,23 +72,38 @@ body
     stroke-dasharray: 400;            
 }
 
+#btn-enter
+{
+    margin-top: 24px;
+    padding: 12px 24px;
+    background-color: #000;
+    color: #fff;
+    border: thin solid #fff;           
+    cursor: pointer;    
+    border-right: 10px double;
+    border-left: 10px double;
+}
+
+
+
+
 .inner-circle-1
 {        
     transform-origin: 100px 100px;    
     transform: rotateZ(-45deg);
-    animation: loading-spinner-1 2s ease-in-out forwards;
+    animation: loading-spinner-1 2s ease-in-out forwards infinite alternate;    
 }
 .inner-circle-2
 {        
     transform-origin: 100px 100px;    
     transform: rotateZ(-135deg);
-    animation: loading-spinner-2 2s ease-in-out forwards;
+    animation: loading-spinner-2 2s ease-in-out forwards infinite alternate;     
 }
 .inner-circle-3
 {
     transform-origin: 100px 100px;    
     transform: rotateZ(90deg);
-    animation: loading-spinner-3 2s ease-in-out forwards;
+    animation: loading-spinner-3 2s ease-in-out forwards infinite alternate;    
 }
 
 @keyframes loading-spinner-1
