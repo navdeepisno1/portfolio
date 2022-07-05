@@ -1,0 +1,132 @@
+{
+    "name": "Navdeep Sharma",
+    "phone": "+91 7015798026",
+    "email": "17101999navdeepsharma@gmail.com",
+    "education": [
+        {
+            "instituteName": "JC Bose University of Science and Technology, YMCA",
+            "major": "B.Tech (ECE)",
+            "passYear": "2017-21",
+            "marks": "7.34",
+            "marksType": "CGPA"
+        },
+        {
+            "instituteName": "DAV CENTENARY PUBLIC SCHOOL",
+            "major": "Class XII",
+            "passYear": "2017",
+            "marks": "94.6",
+            "marksType": "%"
+        },
+        {
+            "instituteName": "DAV CENTENARY PUBLIC SCHOOL",
+            "major": "CLASS X",
+            "passYear": "2015",
+            "marks": "9.4",
+            "marksType": "CGPA"
+        }
+    ],
+    "skills": [
+        "Data Structures",
+        "Algorithms",
+        "CPP",
+        "C",
+        "Python",
+        "Flutter",
+        "Java",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "MySQL"
+    ],
+    "experience": [
+        {
+            "organizationName": "TCS",
+            "from": "5th Aug 2021",
+            "to": "Present",
+            "position": "ASE Trainee",
+            "techStack": [
+                "Flask",
+                "Flutter",
+                "HTML",
+                "CSS",
+                "JS",
+                "Angular"
+            ],
+            "workDescription": "Worked with team to develop an android application for an IOT Project and Frontend for Cloud Deployment Project."
+        },
+        {
+            "organizationName": "Rotary Blood Bank, Faridabad",
+            "from": "NaN",
+            "to": "NaN",
+            "position": "Android Developer",
+            "techStack": [
+                "Java",
+                "Android"
+            ],
+            "workDescription": "Created Android application which was also recognized by commissioner of police."
+        }
+    ],
+    "project": [
+        {
+            "projectName": "BAUD (Bazaar At Your Dwaar)",
+            "techStack": [
+                "Algorithm",
+                "PHP",
+                "MySQL",
+                "Java",
+                "XML",
+                "Firebase"
+            ],
+            "projectDescription": "Worked in team of 4 to build a android application where local shopkeeper can sell their products online."
+        },
+        {
+            "projectName": "SUVIDHA",
+            "techStack": [
+                "Android",
+                "HTML",
+                "Firebase",
+                "CSS",
+                "JS",
+                "PHP",
+                "Bootstrap"
+            ],
+            "projectDescription": "Created a website for students to store different semester question papers and notes"
+        },
+        {
+            "projectName": "LMT DMS",
+            "techStack": [
+                "Android",
+                "HTML",
+                "Firebase",
+                "CSS",
+                "JS",
+                "PHP",
+                "Bootstrap"
+            ],
+            "projectDescription": "Created a Driver Management System for a Transport Company."
+        },
+        {
+            "projectName": "LMT Automate",
+            "techStack": [
+                "Python"
+            ],
+            "projectDescription": "Developed an automation software which will do some calculations which were previously done manually."
+        }
+    ],
+    "responsibilities": [
+        {
+            "position": "",
+            "task": ""
+        }
+    ],
+    "achievements": [
+        "Reached to final stage of Hackathon organized by Govt of India competing against 2000 teams",
+        "Runner up in Hackathon organized by Manan Society",
+        "1st Prize in JS Debugging"
+    ],
+    "socialMediaLinks": {
+        "github": "https://github.com/navdeepisno1/",
+        "linkedIn": "https://www.linkedin.com/in/navdeepsharma8bb565232/",
+        "codingProfiles": []
+    }
+}

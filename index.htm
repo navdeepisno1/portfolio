@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <link href="./assets/styles/main.css" rel="stylesheet">
+</head>
+
+<body onload="startLoading()" onmousemove="startParallax(event)">
+
+    <img id="img-background" src="./assets/images/background-wallpaper2.jpg">
+    <img id="img-soldier-1" src="./assets/images/background-wallpaper-soldier.png">
+    <img id="img-soldier-2" src="./assets/images/background-wallpaper-soldier.png">
+
+    <div class="loader-container">
+        <div class="loader">
+            <svg class="inner-circle">
+                <circle cx="100" class="inner-circle-1" cy="100" r="50" stroke="white" stroke-width="3"
+                    fill="transparent" />
+                <circle cx="100" class="inner-circle-2" cy="100" r="35" stroke="white" stroke-width="3"
+                    fill="transparent" />
+                <circle cx="100" class="inner-circle-3" cy="100" r="20" stroke="white" stroke-width="3"
+                    fill="transparent" />
+                <circle cx="100" class="inner-circle-4" cy="100" r="5" stroke="white" stroke-width="3"
+                    fill="transparent" />
+            </svg>
+            <div style="color: white;text-align: center;">
+                LOADING
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="menu-container">
+            <div class="heading">PORTFOLIO <span>v17.10.1999</span></div>
+            <div class="menu">
+                <ul class="menu-item">
+                    <li>
+                        <div><a>Home</a></div>
+                    </li>
+                    <li>
+                        <div><a>About</a></div>
+                    </li>
+                    <li>
+                        <div><a>Projects</a></div>
+                    </li>
+                    <li>
+                        <div><a>Resume</a></div>
+                    </li>
+                    <li>
+                        <div><a>Contact</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/scripts/utils.js"></script>
+</body>
+
+</html>
