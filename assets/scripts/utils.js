@@ -30,5 +30,7 @@ function startParallax(e) {
 function enterHomePage() {
     document.getElementById("loader-s").style.display = "none";
     var audio = new Audio('./assets/music/background-music.mp3');
+    audio.loop = true;
     audio.play();
+    document.documentElement.requestFullscreen();
 }
