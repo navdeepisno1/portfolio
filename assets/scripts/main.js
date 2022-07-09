@@ -1,5 +1,5 @@
 function startLoading() {
-
+    setLoadingScreen(PAGE.LOADER.HIDE);
 }
 
 var viewportH = document.documentElement.clientHeight;
@@ -26,11 +26,12 @@ function startParallax(e) {
     imgSoldier2.style.transform = `translateX(-${x}px) translateY(-${y}px) scale(0.5) rotateY(180deg)`;
 }
 
-
 function enterHomePage() {
     document.getElementById("loader-s").style.display = "none";
-    var audio = new Audio('./assets/music/background-music.mp3');
-    audio.loop = true;
-    audio.play();
-    document.documentElement.requestFullscreen();
+    setBGM(PAGE.BGM.SOURCE, PAGE.BGM.PAUSE);
+    setFullScreen(PAGE.FULL_SCREEN.SHOW);
+}
+
+function showAbout() {
+    document.getElementById("menu-container").style.transform = `rotateY(45deg)`;
 }

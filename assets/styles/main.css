@@ -6,6 +6,8 @@
     --colorLight: #efefef;    
 }
 
+
+
 body
 {
     /* background: url('/assets/images/background-wallpaper2.jpg');    
@@ -13,6 +15,7 @@ body
     background-size: cover; */
     padding: 0;
     margin: 0;    
+    cursor: url("/assets/images/Arrow.ani");
 }
 
 #img-background
@@ -136,8 +139,21 @@ body
     }
 }
 
+.menu-perspective-holder
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+    transition: all 0.5s;
+}
+
 .menu-container
-{    
+{   
+    transform: rotateY(0deg);
+    transform-origin: 0% 50%;     
     position: absolute;
     bottom: 24px;
     left: 24px;
@@ -146,6 +162,19 @@ body
     background: rgba(0, 0, 0, 0.75);  
     backdrop-filter: blur(2px);
     box-shadow: 10px 10px 24px #000;          
+    transition: all 1s ease-in-out;
+}
+
+a ,a:hover ,a:visited, a:active
+{
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu-container:hover
+{
+    /* transform: rotateY(45deg);
+    transform-origin: 0% 0%; */
 }
 
 .menu-container > .heading
